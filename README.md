@@ -1,17 +1,10 @@
 # odev2.2
 
-Java İkili Ağaç Dengesi Kontrolü
-Bu Java kodu, verilen bir ikili ağacın dengeli olup olmadığını kontrol etmek için kullanılır. TreeNode sınıfı, 
-ağacın her düğümünü temsil etmek için kullanılır ve BinaryTree sınıfı, ağacın dengeli olup olmadığını belirlemek için bir isBalanced fonksiyonu sağlar.
+Binary Tree Child Sum Özelliği
+Bu Java kodu, bir düğümün alt düğümlerinin toplamının, düğümün değerine eşit olup olmadığını kontrol etmek için yöntemler içeren bir BinaryTre sınıfı tanımlar.
 
 Kullanım
-Bu Java kodunu çalıştırmak için Java JDK'nın yüklü olduğundan ve javac ve java komutlarının çalıştırılabildiğinden emin olun. 
-Ayrıca, bu kodun derlenmesi ve çalıştırılması için bir Java IDE'si de kullanabilirsiniz.
+BinaryTre sınıfını kullanmak için, bir örneğini oluşturabilir ve Node sınıfını kullanarak ikili ağacın root düğümünü ayarlayabilirsiniz. Ardından, isChildSum yöntemi, kök düğümünün alt düğüm özelliğini sağlayıp sağlamadığını kontrol etmek için çağrılabilir.
 
-Kodu indirdikten sonra, konsolda aşağıdaki komutu kullanarak kodu derleyin:
-javac BinaryTree.java
-
-Daha sonra, aşağıdaki komutla kodu çalıştırın:
-java BinaryTreeKod
-
-örnek bir ikili ağaç oluşturur ve isBalanced fonksiyonunu kullanarak ağacın dengeli olup olmadığını belirler. Sonuç konsola yazdırılır.
+Uygulama
+BinaryTre sınıfı, ikili ağaçtaki bir düğümü temsil etmek için bir Node sınıfına sahiptir. childSum yöntemi, bir Node parametresi alan ve sol ve sağ çocuk düğümlerinin değerlerinin toplamını hesaplayan ve toplamı döndüren özyineli bir yardımcı yöntemdir. isChildSum yöntemi, bir Node parametresi alan ve sol ve sağ çocuk düğümlerinin değerlerinin toplamının kendisinin değerine eşit olup olmadığını kontrol eden özyineli bir yöntemdir. Eşitse true değerini döndürür, aksi takdirde false değerini döndürür.
